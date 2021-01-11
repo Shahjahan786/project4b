@@ -23,11 +23,7 @@ export default function Header() {
   return (
     <div className={classes.root}>
       <AppBar position="sticky" className={classes.appBar}>
-        <Toolbar>
-          
-            CORTEX COPYWRITER 
-            
-        </Toolbar>
+        <Toolbar>CORTEX COPYWRITER</Toolbar>
       </AppBar>
     </div>
   );
